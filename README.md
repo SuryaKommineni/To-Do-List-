@@ -14,7 +14,7 @@ A simple and responsive To-Do List web application built using **JavaScript** an
 
 ## 📸 Preview
 
-![To-Do List Screenshot](./assets/todo-preview.png) <!-- Replace with your actual image path -->
+"C:\Users\K Surya\Pictures\Screenshots\Screenshot 2025-07-24 145734.png"
 
 ---
 
