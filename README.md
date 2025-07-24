@@ -14,7 +14,7 @@ A simple and responsive To-Do List web application built using **JavaScript** an
 
 ## 📸 Preview
 
-![App Screenshot](./assets/screenshot.png)
+![App Screenshot](./assets/Preview.png)
 
 ---
 
