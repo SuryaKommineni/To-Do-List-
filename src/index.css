@@ -1,0 +1,102 @@
+body {
+    background-color: hsl(0, 0%, 10%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.to-do-list {
+    text-align: center;
+    padding: 60px 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: #f9f9f9;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+
+input[type="text"] {
+    font-size: 1.6rem;
+    padding: 12px 15px;
+    width: 65%;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-right: 10px;
+    background-color: #2c2c3a;
+    color: #f0f0f0;
+    box-shadow: inset 2px 2px 6px rgba(0, 0, 0, 0.3), inset -2px -2px 6px rgba(255, 255, 255, 0.1);
+}
+
+button {
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 12px 20px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.add-button {
+    background: linear-gradient(145deg, #28a745, #218838);
+}
+.add-button:hover {
+    background: linear-gradient(145deg, #218838, #1e7e34);
+}
+
+.delete-button {
+    background: linear-gradient(145deg, #dc3545, #c82333);
+}
+.delete-button:hover {
+    background: linear-gradient(145deg, #c82333, #bd2130);
+}
+
+.move-button {
+    background: linear-gradient(145deg, #007bff, #0069d9);
+}
+.move-button:hover {
+    background: linear-gradient(145deg, #0069d9, #0056b3);
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+li {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #333;
+    background: #f0f0f0;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+li:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+}
+
+.text {
+    flex: 1;
+    color: #222;
+}
+
+.delete-button, .move-button {
+    padding: 8px 12px;
+    font-size: 1.3rem;
+    margin-left: 10px;
+}
