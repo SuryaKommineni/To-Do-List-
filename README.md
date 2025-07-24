@@ -1,6 +1,6 @@
 # 📝 To-Do List
 
-A simple and responsive To-Do List web application built using **HTML**, **CSS**, and **JavaScript**. This project helps users manage daily tasks by adding, deleting, and marking them as completed.
+A simple and responsive To-Do List web application built using **JavaScript** and **React.JS**. This project helps users manage daily tasks by adding, deleting, and moving the high priority task up and down.
 
 ---
 
@@ -8,8 +8,6 @@ A simple and responsive To-Do List web application built using **HTML**, **CSS**
 
 - ✅ Add new tasks
 - 🗑️ Delete tasks
-- ✏️ Mark tasks as completed
-- 💾 Data persistence using Local Storage *(optional if implemented)*
 - 📱 Responsive design for all screen sizes
 
 ---
@@ -22,11 +20,9 @@ A simple and responsive To-Do List web application built using **HTML**, **CSS**
 
 ## 🛠️ Tech Stack
 
-- HTML5
-- CSS3
+- React.JS
 - JavaScript (Vanilla)
 
 ---
 
-## 📂 Project Structure
 
